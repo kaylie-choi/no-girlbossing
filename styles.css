@@ -1,0 +1,9 @@
+img {
+  content: url(https://i.imgur.com/neRF63i.jpg);
+}
+
+span.feed-shared-actor__name > span::before {
+  content: "you are not exhibitting girl resting behaviour 😡  ";
+  color: red;
+  font-style: italic;
+}

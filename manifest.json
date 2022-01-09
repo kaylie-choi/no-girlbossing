@@ -1,0 +1,12 @@
+{
+  "name": "no more girlbossing",
+  "description": "this extension promotes girlresting, girlsleeping, and girllayingdown. in all seriousness, linkedin is a place that can lead to a lot of self-doubt and comparison to others in your network - sometimes it's nice to get a reminder that you deserve a break and can take a step back.",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "content_scripts": [{
+      "matches": ["https://www.linkedin.com/*"],
+      "css": ["styles.css"],
+      "js": ["index.js"]
+    }
+  ]
+}
